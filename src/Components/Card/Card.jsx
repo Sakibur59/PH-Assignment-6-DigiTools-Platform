@@ -29,7 +29,7 @@ const Card = ({ product }) => {
         <p className="text-[#627382]">{product.description}</p>
         <p className="font-bold text-2xl">
           ${product.price}/
-          <span className="text-[#627382] text-[16px]">Mo</span>
+          <span className="text-[#627382] text-[16px]">Month</span>
         </p>
 
         <div>

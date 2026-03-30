@@ -118,7 +118,7 @@ const PricingCard = () => {
               <p>Custom branding</p>
             </div>
           </div>
-          <button className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full w-full">
+          <button className="btn  bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full w-full">
             Contact Sales
           </button>
         </div>
