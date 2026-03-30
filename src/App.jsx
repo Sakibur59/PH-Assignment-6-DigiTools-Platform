@@ -6,7 +6,8 @@ import Banner from './Components/Banner/Banner'
 import NavBar from './Components/NavBar/NavBar'
 import AllProducts from './Components/AllProducts/AllProducts'
 import Stepts from './Components/Steps/Stepts'
-import Pricng from './Components/Pricing/Pricing'
+import Footer from './Components/Footer/Footer'
+import PricingCard from './Components/Pricing/PricingCard'
 
 const fetchData = async ()=>{
   const res = await fetch('productsData.json');
@@ -26,7 +27,8 @@ function App() {
       </Suspense>
 
       <Stepts></Stepts>
-      <Pricng></Pricng>
+      <PricingCard></PricingCard>
+      <Footer></Footer>
     </>
   )
 }

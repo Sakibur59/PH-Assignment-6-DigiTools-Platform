@@ -1,7 +1,7 @@
 import React from "react";
 import tikImg from "../../assets/products/Vector.png";
 import tikImgWhite from "../../assets/products/Vector white.png"
-const Pricng = () => {
+const PricingCard = () => {
   return (
     <div className="py-30 ">
       <div className="text-center">
@@ -128,4 +128,4 @@ const Pricng = () => {
   );
 };
 
-export default Pricng;
+export default PricingCard;
