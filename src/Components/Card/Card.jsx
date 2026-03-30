@@ -41,7 +41,7 @@ const Card = ({ product }) => {
         <div className="card-actions justify-end">
           <button
             onClick={() => setIsBye(true)}
-            className="btn btn-primary w-full"
+            className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full w-full"
           >
             {isBye ? "Added to Cart" : "Bye Now"}
           </button>
