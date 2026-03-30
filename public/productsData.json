@@ -1,0 +1,98 @@
+[
+  {
+    "id": "pdt-001",
+    "name": "NovaFlow AI",
+    "description": "An advanced automation engine that connects your workspace apps with neural-network logic.",
+    "price": 29.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Unlimited automated workflows",
+      "Custom API integration",
+      "Real-time data syncing",
+      "Priority server access"
+    ],
+    "icon": "auto_awesome"
+  },
+  {
+    "id": "pdt-002",
+    "name": "PixelForge Pro",
+    "description": "A comprehensive library of 10,000+ high-fidelity UI components and 3D assets.",
+    "price": 149.00,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Commercial license included",
+      "Figma & Adobe XD source files",
+      "Free lifetime updates",
+      "Direct designer support"
+    ],
+    "icon": "unfold_more"
+  },
+  {
+    "id": "pdt-003",
+    "name": "GhostWriter Elite",
+    "description": "Premium SEO-optimized content generator tailored for tech blogs and white papers.",
+    "price": 199.00,
+    "period": "yearly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Plagiarism checker",
+      "Voice-tone matching",
+      "One-click CMS export",
+      "Advanced keyword research"
+    ],
+    "icon": "history_edu"
+  },
+  {
+    "id": "pdt-004",
+    "name": "SecureVault VPN",
+    "description": "Military-grade encryption for remote teams working in high-risk digital environments.",
+    "price": 12.50,
+    "period": "monthly",
+    "tag": "Secure",
+    "tagType": "popular",
+    "features": [
+      "Zero-log policy",
+      "Multi-hop connection",
+      "256-bit AES encryption",
+      "Dedicated IP address"
+    ],
+    "icon": "shield"
+  },
+  {
+    "id": "pdt-005",
+    "name": "StreamLine Analytics",
+    "description": "Real-time dashboard for social media growth tracking and audience sentiment analysis.",
+    "price": 45.00,
+    "period": "monthly",
+    "tag": "Trending",
+    "tagType": "new",
+    "features": [
+      "Predictive trend analysis",
+      "Custom PDF reports",
+      "Competitor benchmarking",
+      "Influencer discovery tool"
+    ],
+    "icon": "bar_chart"
+  },
+  {
+    "id": "pdt-006",
+    "name": "CodeMaster Suite",
+    "description": "An all-in-one IDE plugin that provides AI pair programming and automated debugging.",
+    "price": 89.00,
+    "period": "yearly",
+    "tag": "Top Rated",
+    "tagType": "best-seller",
+    "features": [
+      "Support for 20+ languages",
+      "Deep code refactoring",
+      "Security vulnerability scans",
+      "Git-ready collaboration"
+    ],
+    "icon": "terminal"
+  }
+]
