@@ -1,16 +1,63 @@
-# React + Vite
+# 🚀 Premium Digital Tools
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 About The Project
 
-Currently, two official plugins are available:
+**Premium Digital Tools** is a modern web application designed to provide users with high-quality digital tools in one place. The platform focuses on simplicity, performance, and a smooth user experience, making everyday tasks faster and more efficient.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Whether you're looking for productivity tools or useful digital utilities, this project aims to deliver them with a clean and responsive interface.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+* ⚡ Fast and responsive UI
+* 🎯 User-friendly design
+* 📱 Fully responsive for all devices
+* 🔄 Dynamic content rendering
+* 🎨 Clean and modern interface
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Technologies Used
+
+This project is built using:
+
+* ⚛️ **React** – Frontend library for building UI
+* 🧠 **ES6 (JavaScript)** – Modern JavaScript features
+* 🎨 **Tailwind CSS** – Utility-first CSS framework
+* 🌼 **DaisyUI** – Tailwind component library
+
+---
+
+## 📂 Project Structure
+
+```
+/src
+ ├── components
+ ├── pages
+ ├── assets
+ └── App.jsx
+```
+
+---
+
+
+
+---
+
+## 📸 Preview
+
+![Project Preview](https://i.ibb.co.com/B5QXfs59/Screenshot-2026-03-30-234252.png)
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to fork the repo and submit a pull request.
+
+---
+
+
+## 💡 Author
+
+Developed with ❤️ by **Md Sakibur Rahman**
