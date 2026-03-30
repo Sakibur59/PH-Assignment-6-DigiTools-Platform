@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#101727] border-t border-red-900/50 pt-16 pb-10">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="grid grid-cols-1 md:grid-cols-14 ">
+        <div className="grid grid-cols-1 md:grid-cols-12 lg:grid-cols-14 ">
           {/* Logo & Description */}
           <div className="md:col-span-5">
             <div className="flex items-center gap-3 mb-6">

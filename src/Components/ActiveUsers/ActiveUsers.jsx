@@ -2,7 +2,7 @@ import React from 'react';
 
 const ActiveUsers = () => {
     return (
-        <div className='bg-linear-to-r from-[#4F39F6] to-[#9514FA]'>
+        <div className='bg-linear-to-r from-[#4F39F6] to-[#9514FA] md: mt-10'>
             <div className='max-w-300 mx-auto flex justify-around items-center p-15'>
                 <div>
                     <h1 className='text-5xl font-extrabold text-white'>50K+</h1>

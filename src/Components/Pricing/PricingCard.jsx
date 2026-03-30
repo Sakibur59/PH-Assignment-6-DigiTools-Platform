@@ -12,7 +12,7 @@ const PricingCard = () => {
         </p>
         
       </div>
-      <div className="grid grid-cols-3 max-w-300 mx-auto gap-6 mt-10 ">
+      <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-300 mx-auto  mt-10 ">
         <div className="card bg-[#F9FAFC]  shadow-sm p-5 space-y-4">
           <div className="">
             <h2 className="font-bold text-[24px]">Starter</h2>
@@ -44,7 +44,7 @@ const PricingCard = () => {
           </button>
         </div>
         <div className="card bg-linear-to-r from-[#4F39F6] to-[#9514FA]  shadow-sm p-5 space-y-4 relative">
-          <div className="absolute left-40 -top-4">
+          <div className="absolute left-70 md:left-40 lg:left-40 -top-4">
              <span className="badge badge-xs badge-warning bg-[#FEF3C6] border-none text-[#BB4D00] p-3 rounded-full">Most Popular</span>
           </div>
           <div className="">
