@@ -62,17 +62,21 @@ const Cart = ({ selectedProduct, setSelectedProduct }) => {
         )}
 
         <div>
-          <div className="flex justify-between">
+          {
+            selectedProduct.length>0 && (<div className="flex justify-between">
             <div className="text-[#627382]">Total:</div>
             <div className="text-[#101727] text-2xl">${totalPrice}</div>
-          </div>
+          </div>)
+          }
         </div>
-        <button
+        {
+          selectedProduct.length > 0 && (<button
           onClick={handleCheckout}
           className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full w-full"
         >
           Proceed to Checkout
-        </button>
+        </button>)
+        }
       </div>
     </div>
   );

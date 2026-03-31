@@ -12,8 +12,6 @@ const ProductFeature = ({ feature }) => {
           viewBox="0 0 21 21"
         >
           <path
-            
-            
             d="M3 14l5 4L19 9"
           />
         </svg>

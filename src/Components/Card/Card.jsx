@@ -55,9 +55,9 @@ const Card = ({ product,selectedProduct, setSelectedProduct}) => {
         <div className="card-actions justify-end">
           <button
             onClick={handleChooseProduct}
-            className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full w-full"
+            className={`${isBye ? "btn bg-green-600 text-white rounded-full w-full" : "btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full w-full"}`}
           >
-            {isBye ? "Added to Cart" : "Bye Now"}
+            {isBye ? "✓ Added to Cart" : "Bye Now"}
           </button>
         </div>
       </div>
