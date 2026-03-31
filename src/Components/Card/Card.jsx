@@ -5,9 +5,17 @@ import { toast } from "react-toastify";
 const Card = ({ product,selectedProduct, setSelectedProduct}) => {
   const [isBye, setIsBye] = useState(false);
   const handleChooseProduct = () => {
-    
-    toast.success(`${product.name} is selected`)
     setIsBye(true);
+
+    const isAdded = selectedProduct.find(item => item.id === product.id) ;
+
+    if(isAdded){
+      toast.error("Item Already in Cart");
+      return;
+    } else{
+      toast.success(`${product.name} is selected`);
+    }
+
     setSelectedProduct([...selectedProduct,product])
   };
 
