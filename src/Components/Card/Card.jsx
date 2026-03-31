@@ -1,9 +1,16 @@
 import React, { useState } from "react";
 import ProductFeature from "../ProductsFeature/ProductFeature";
+import { toast } from "react-toastify";
 
-
-const Card = ({ product }) => {
+const Card = ({ product,selectedProduct, setSelectedProduct}) => {
   const [isBye, setIsBye] = useState(false);
+  const handleChooseProduct = () => {
+    
+    toast.success(`${product.name} is selected`)
+    setIsBye(true);
+    setSelectedProduct([...selectedProduct,product])
+  };
+
   return (
     <div className="shadow rounded-md relative">
       <div className="absolute top-1 right-3">
@@ -33,14 +40,13 @@ const Card = ({ product }) => {
         </p>
 
         <div>
-            
           {product.features.map((feature, index) => (
             <ProductFeature key={index} feature={feature}></ProductFeature>
           ))}
         </div>
         <div className="card-actions justify-end">
           <button
-            onClick={() => setIsBye(true)}
+            onClick={handleChooseProduct}
             className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full w-full"
           >
             {isBye ? "Added to Cart" : "Bye Now"}

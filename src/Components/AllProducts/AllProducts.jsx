@@ -33,9 +33,9 @@ const AllProducts = ({ productsPromise }) => {
         </div>
       </div>
       {selectedType === "product" ? (
-        <Products productData={productData}></Products>
+        <Products productData={productData} selectedProduct={selectedProduct} setSelectedProduct={setSelectedProduct}></Products>
       ) : (
-        <Cart></Cart>
+        <Cart productData={productData} selectedProduct={selectedProduct} setSelectedProduct={setSelectedProduct}></Cart>
       )}
     </div>
   );
