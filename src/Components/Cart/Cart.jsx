@@ -51,7 +51,7 @@ const Cart = ({ selectedProduct, setSelectedProduct }) => {
                   </div>
                 </div>
                 <button
-                  className="text-red-500"
+                  className="text-red-500 cursor-pointer"
                   onClick={() => handleDeleteSelectedProduct(product)}
                 >
                   Remove
